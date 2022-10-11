@@ -1,0 +1,10 @@
+okay
+click
+previous
+next
+call me
+stop
+move
+open
+close
+base

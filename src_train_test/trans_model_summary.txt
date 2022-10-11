@@ -1,0 +1,38 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resnet50 (Functional)       (None, 2048)              23587712  
+                                                                 
+ flatten (Flatten)         (None, 2048)              0         
+                                                                 
+ batch_normalization (BatchN  (None, 2048)             8192      
+ ormalization)                                                   
+                                                                 
+ dense (Dense)             (None, 256)               524544    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ batch_normalization_1 (Batc  (None, 256)              1024      
+ hNormalization)                                                 
+                                                                 
+ dense_1 (Dense)             (None, 128)               32896     
+                                                                 
+ dropout_1 (Dropout)         (None, 128)               0         
+                                                                 
+ batch_normalization_2 (Batc  (None, 128)              512       
+ hNormalization)                                                 
+                                                                 
+ dense_2 (Dense)             (None, 64)                8256      
+                                                                 
+ dropout_2 (Dropout)         (None, 64)                0         
+                                                                 
+ batch_normalization_3 (Batc  (None, 64)               256       
+ hNormalization)                                                 
+                                                                 
+ dense_3 (Dense)             (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 24,164,042
+Trainable params: 571,338
+Non-trainable params: 23,592,704
