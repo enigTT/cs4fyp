@@ -7,6 +7,7 @@
 > Join index and middle fingers with thumb pointing down to double click
 > Stretch out palm to stop pointer
 
-## In any shell opened in the direcotry with reqs.txt: Run `pip install -r reqs.txt` to get dependencies
+## In any shell opened in the directory with reqs.txt: 
+## Run `pip install -r reqs.txt` to get dependencies
 
 **launch the app in the shell by running `py/python3 main.py` in the same direcotry**
